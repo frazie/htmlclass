@@ -1,0 +1,45 @@
+design
+HTML CSS BOOTSTRAP JS + HTML
+
+HTML: hypertext text markup language
+
+2. Layout technique;
+
+css
+identifier
+class
+tagname
+
+26th July
+ SHORT NOTES
+css
+. you style HTML elements using css by using th following tags
+     1. id : styles specific element with id name.
+     2. class :groups a styling and associates it with any element falling within the class.
+     3. element names : styles any element without an id or a class.
+. we have 3 forms of css
+     1.internal : css is is written inside the html file
+     2. external : css is written outside the html file
+     3. inline : css is written using the style attribute inside the html file.
+
+27th July
+java/html
+
+Javascript(DOM)
+    //find elemencts usind DOM, we have the following methods
+
+    document.getElementById('id')
+    document.getElementByTagName('element')
+    document.getElementByClassName('class Name')
+    document.querySelectorAll(css
+
+    using javascript for styling
+
+    document.getElementById('').style.property
+    for background styling:document.style.background
+
+    element.attribute= change the attribute value of html elements
+
+    --------------------------------------------
+    Common properties : can be applied to any element
+    Unique properties : only be applied to a specific element

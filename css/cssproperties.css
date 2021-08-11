@@ -1,0 +1,57 @@
+/*links appear in 4 states link, visited, hover, active*/
+#linkStyling:link{
+    color: hotpink;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+}
+#linkStyling:visited{
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+}
+#linkStyling:hover{
+    color: purple;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+}
+#linkStyling:active{
+    color: blue;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+}
+#studentTable{
+    font-family: Arial,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#studentTable td , #studentTable th {
+    border: 1px solid grey;
+    padding: 8px;
+}
+#studentTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+#studentTable tr :hover {
+    background-color: #d4d4d4;
+}
+#exampleDiv {
+    background-image: url("../images/image3.jpg");
+    height: 120px;
+    padding: 20px;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    padding: 20px;
+}
