@@ -1,107 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--<inside head we place meta-data of our page>-->
+    <!--Inside head we place meta-data for our page-->
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>eskimo</title>
-<!--    metadata about elements-->
-    <link rel="stylesheet" href="css/style.css">
+    <!--For responsiveness esp when integrating multiple devices; tablet.phone.desktop  -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ABC</title>
+    <!--attributes: meta-data about elements-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
-<!--grid layouting -->
-<div class ="grid-container">
+<!--grid layouting-->
+<div class="grid-container">
     <div id="one">
-<!--        navigation links-->
+        <!-- nav for navigation button-->
         <nav>
-<!--            links:anchor-->
-<!--            local link-->
+            <!--links - anchor tag-->
             <ul id="navUl">
-                <li class="liststone"><a href="public/gallery.html">Gallery</a></li>
-                <li class="liststone"><a target="_blank" href="public/shop.html">Shop</a></li>
-                <li class="liststone"><a href="">Contact</a></li>
-                <li class="liststone"><a href="">Profile</a></li>
-                <li class="liststone"><a target="_blank" href="https://www.adidas.com">Adidas</a></li>
+                <li style="font-size: 30px;">&#129516;</li>
+                <li class="li1"><a class="li1" target="_blank" href="public/gallery.html">Gallery</a></li>
+                <li class="li1"><a class="li1" href="">Shop</a></li>
+                <li class="li1"><a class="li1" href="">Contact</a></li>
+                <li class="li1"><a class="li1" href="">Profile</a></li>
+                <li class="li1"><a class="li1" href="https://www.nike.com" target="_blank" >Nike</a></li>
             </ul>
 
-<!--            absolute link-->
+            <!--local link-->
 
+
+
+
+            <!-- absolute/external link-->
         </nav>
-        </div>
+    </div>
     <div id="two">
         <ul id="ul2">
             <li class="list"><a class="list" href="">New Balance</a></li>
             <li class="list"><a class="list" href="">Adidas</a></li>
             <li class="list"><a class="list" href="">Puma</a></li>
             <li class="list"><a class="list" href="">Nike</a></li>
-        </ul></div>
-    <div id="three">3</div>
-    <div id="four">
-        <ul id="ul4">
-            <li class="list"><a class="list" href="">Offset</a></li>
-            <li class="list"><a class="list" href="">Lil Baby</a></li>
-            <li class="list"><a class="list" href="">Drake</a></li>
-            <li class="list"><a class="list" href="">J Cole</a></li>
         </ul>
+    </div>
+    <div id="three">
+        <iframe width="560" height="320" src="https://www.youtube.com/embed/9jtkNI4ybHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
+    </div>
+    <div id="four">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae corporis culpa eaque facilis libero provident saepe tempora vel voluptatem! Beatae cumque dolore eaque eius illo laboriosam mollitia perferendis veritatis!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consectetur eligendi inventore minus nemo pariatur voluptates? A, accusamus amet aut delectus error molestias obcaecati possimus provident quas sequi, sit ullam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aspernatur cumque et expedita illo illum incidunt iure libero molestias nam nesciunt nostrum nulla obcaecati quibusdam, quidem ratione reprehenderit ullam veniam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dicta eveniet pariatur perferendis. Adipisci animi cum esse eum nostrum placeat, quos reiciendis? Debitis est illo qui. Asperiores blanditiis explicabo recusandae?</p>
     </div>
     <div id="five">
         <div class="flex-container">
-            <div id="oneFlex">
+            <div id="onef">
                 <div class="card">
-                    <img src="images/image5.jpg" height="150" width="200"/>
-                    <div class="container">
-                        <h5>Mustang</h5>
-                        <p>Car Price:300,000/=</p>
-                        <button class="center" id="btnadd">Add to cart</button>
-
-                    </div>
-            </div>
-            </div>
-            <div id="twoFlex">
-                <div class="card">
-                    <img src="images/image6.jpg" height="150" width="200"/>
+                    <img src="images/image1.jpg" alt="Shoe Image" width=200 onclick="myFunction()">
                     <div class="container">
                         <h5>Adidas</h5>
-                        <p>Car Price:250,000/=</p>
-                        <button class="center" id="btnadd2">Add to cart</button>
-
+                        <p>Shoe Price: 13,000/=</p>
+                        <button onclick="myFunction()" class="center" id="btnadd">Add to cart</button>
                     </div>
                 </div>
             </div>
-            <div id="threeFlex"><div class="card">
-                <img src="images/image7.jpg" height="150" width="200"/>
-                <div class="container">
-                    <h5>Dodge</h5>
-                    <p>Car Price:400,000/=</p>
-                    <button class="center" id="btnadd3">Add to cart</button>
-
+            <div id="twof">
+                <div class="card">
+                    <img src="images/image2.jpg" alt="Shoe Image" width=200 height="200">
+                    <div class="container">
+                        <h5>New Balance</h5>
+                        <p>Shoe Price: 10,000/=</p>
+                        <button class="center" id="btnadd2">Add to cart</button>
+                    </div>
                 </div>
-            </div></div>
-            <div id="fourFlex"><div class="card">
-                <img src="images/image8.jpg" height="150" width="200"/>
-                <div class="container">
-                    <h5>Chevrolet</h5>
-                    <p>Car Price:260,000/=</p>
-                    <button class="center" id="btnadd4">Add to cart</button>
-
+            </div>
+            <div id="threef">
+                <div class="card">
+                    <img src="images/image3.jpg" alt="Shoe Image" width=200 height="200">
+                    <div class="container">
+                        <h5>Puma</h5>
+                        <p>Shoe Price: 11,000/=</p>
+                        <button class="center" id="btnadd3">Add to cart</button>
+                    </div>
                 </div>
-            </div></div>
-
+            </div>
+            <div id="fourf">
+                <div class="card">
+                    <img src="images/image4.jpg" alt="Shoe Image" width=200 height="200">
+                    <div class="container">
+                        <h5>Nike</h5>
+                        <p>Shoe Price: 14,000/=</p>
+                        <button class="center" id="btnadd4">Add to cart</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="six">
-        <p>Email: elijahngunyejr@gmail,com</p>
-        <p>Address: 8585-4848</p>
-        <p>Contact: +254774111415</p>
-
+        <div><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram icon" width="50" height="50"></a></div>
+        <div><a href="https://www.facebook.com/"><img src="images/facebook.jpg" alt="Facebook icon" width="50" height="50"></a></div>
+        <div><a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter icon" width="50" height="50"></a></div>
+        <div><a href="mailto: ofrazy@gmail.com"><img src="images/Gmail.jpg" alt="Email icon" width="50" height="50"></a></div>
     </div>
-</div>
-<!--here we write what we want user to see-->
-<!--link to js files-->
-<script> type="text/javascript"; src="js'/script.js"</script>
+    <!--Id is unique to one element while a class is for multiple elements. ids shouldn't be duplicated.
+     both references for styling-->
+    <!--We write what we want the user to see/ interact with-->
 
+    <!--link to javascript files right before closing body tag-->
+
+</div>
+<script type="text/javascript">
+    function myFunction() {
+        alert("You tried!")
+    }
+</script>
 </body>
 </html>
-
-
-
