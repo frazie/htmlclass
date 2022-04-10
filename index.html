@@ -8,6 +8,8 @@
     <title>ABC</title>
     <!--attributes: meta-data about elements-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    npm install tailwindcss
+
 
 </head>
 <body>
@@ -18,27 +20,20 @@
         <nav>
             <!--links - anchor tag-->
             <ul id="navUl">
-                <li style="font-size: 30px;">&#129516;</li>
-                <li class="li1"><a class="li1" target="_blank" href="public/gallery.html">Gallery</a></li>
-                <li class="li1"><a class="li1" href="">Shop</a></li>
+                <li style="font-size: 50px;">&#129322;</li>
+                <li class="li"><a class="li1" target="_blank" href="public/gallery.html">Gallery</a></li>
+                <li class="li"><a class="li1" href="">Shop</a></li>
                 <li class="li1"><a class="li1" href="">Contact</a></li>
                 <li class="li1"><a class="li1" href="">Profile</a></li>
                 <li class="li1"><a class="li1" href="https://www.nike.com" target="_blank" >Nike</a></li>
             </ul>
-
-            <!--local link-->
-
-
-
-
-            <!-- absolute/external link-->
         </nav>
     </div>
     <div id="two">
         <ul id="ul2">
-            <li class="list"><a class="list" href="">New Balance</a></li>
-            <li class="list"><a class="list" href="">Adidas</a></li>
-            <li class="list"><a class="list" href="">Puma</a></li>
+            <li class="list"><a class="list" href="">Website development</a></li>
+            <li class="list"><a class="list" href="">Twitter</a></li>
+            <li class="list"><a class="list" href="">Instagram</a></li>
             <li class="list"><a class="list" href="">Nike</a></li>
         </ul>
     </div>
@@ -69,7 +64,7 @@
                     <div class="container">
                         <h5>New Balance</h5>
                         <p>Shoe Price: 10,000/=</p>
-                        <button class="center" id="btnadd2">Add to cart</button>
+                        <button onclick="myFunction()" class="center" id="btnadd2">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -79,7 +74,7 @@
                     <div class="container">
                         <h5>Puma</h5>
                         <p>Shoe Price: 11,000/=</p>
-                        <button class="center" id="btnadd3">Add to cart</button>
+                        <button onclick="myFunction()" class="center" id="btnadd3">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -89,17 +84,17 @@
                     <div class="container">
                         <h5>Nike</h5>
                         <p>Shoe Price: 14,000/=</p>
-                        <button class="center" id="btnadd4">Add to cart</button>
+                        <button onclick="myFunction()" class="center" id="btnadd4">Add to cart</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div id="six">
-        <div><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram icon" width="50" height="50"></a></div>
-        <div><a href="https://www.facebook.com/"><img src="images/facebook.jpg" alt="Facebook icon" width="50" height="50"></a></div>
-        <div><a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter icon" width="50" height="50"></a></div>
-        <div><a href="mailto: ofrazy@gmail.com"><img src="images/Gmail.jpg" alt="Email icon" width="50" height="50"></a></div>
+        <div><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram icon" width="60" height="60"></a></div>
+        <div><a href="https://www.facebook.com/"><img src="images/facebook.jpg" alt="Facebook icon" width="60" height="60"></a></div>
+        <div><a href="https://twitter.com/"><img src="images/twitter.png" alt="Twitter icon" width="60" height="60"></a></div>
+        <div><a href="mailto: ofrazy@gmail.com"><img src="images/Gmail.jpg" alt="Email icon" width="60" height="60"></a></div>
     </div>
     <!--Id is unique to one element while a class is for multiple elements. ids shouldn't be duplicated.
      both references for styling-->
@@ -110,7 +105,7 @@
 </div>
 <script type="text/javascript">
     function myFunction() {
-        alert("You tried!")
+        alert("product is not in stock at the moment")
     }
 </script>
 </body>
